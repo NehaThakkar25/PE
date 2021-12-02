@@ -1,0 +1,7 @@
+.load-page{
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

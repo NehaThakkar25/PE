@@ -1,0 +1,239 @@
+.main_slider{
+    display: block;
+    background: url(./images/slider-1.jpg);
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 90.4vh;
+    width: 100%;
+    margin-top: -5px;
+    bottom: 0;
+}
+
+.main_slider .main_slider_content{
+    position: relative;
+    width: 60%;
+    top: 230px;
+    margin-left: 80px;
+    z-index: 10000;
+}
+
+.main_slider .overlay{
+    background-color: black;
+    opacity: 0.6;
+    left: 0;
+    position: absolute;
+    height: 90.5vh;
+    width: 100%;
+}
+
+.main_slider .main_slider_content h4{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    color: #FFCC00;
+}
+
+.main_slider .main_slider_content h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.main_slider .main_slider_content .yellow_button{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background: #FFCC00;
+    border-radius: 3px;
+    outline: none !important;
+    border: none;
+    padding: 5px 10px;
+}
+
+.main_slider .main_slider_content .yellow_button a{
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
+
+.main_slider .main_slider_content .red_button:hover{
+    background: rgba(255, 204, 0, 0.8);
+}
+
+.banners{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.banner-items{
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 50px 0;
+    justify-content: center;
+}
+
+.banner_item{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 265px;
+    margin: 0 10px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.banner_item:hover{
+    transform: translate3d(2, 2, 2)
+}
+
+.banner_category{
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    min-width: 180px;
+    padding: 0 25px;
+}
+
+.banner_category a{
+    display: block;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
+
+.banner_category:hover{
+    background: white;
+}
+
+.bestsellers{
+    background-color: #ece8e8;
+    position: relative;
+    padding: 50px 70px;
+}
+
+.bestsellers h1{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(16, 51, 58);
+    text-transform: uppercase;
+    text-shadow: rgb(139, 139, 139) 1px 0 10px;
+}
+
+.bestsellers .products{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    padding: 0;
+}
+
+.bestsellers .products .product_item img{
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.bestsellers .products .product_item{
+    cursor: pointer;
+}
+
+.bestsellers .products .product_item:hover{
+    transform: scale(1.1 , 1.1);
+}
+
+.bestsellers .products .product_item .product_name{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:rgb(16, 51, 58);
+}
+
+.bestsellers .products .product_item .product_price{
+    color:rgb(119, 27, 27);
+    font-weight: 600;
+    text-align: center;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+    padding: 50px 200px;
+}   
+
+.about .about_content h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(16, 51, 58);
+    margin-top: 100px;
+}
+
+.about .about_content p{
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.ourCustomers{
+    background-color: rgba(16, 51, 58, 0.2);
+    color:rgba(16, 51, 58, 1);
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.ourCustomers h1{
+    font-weight: 700 !important;
+    font-size: 50px !important;
+}
+
+.ourCustomers .customer-logos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourCustomers .customer-logos img{
+    height: 150px;
+    margin: 50px 50px 40px;
+}
+
+.footer{
+    background: #081c20;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer .footer_logo{
+    padding: 50px;
+}
+
+.footer .footer_logo img{
+    width: 160px;
+}
+
+.footer .footer_logo p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 40px;
+}
+
