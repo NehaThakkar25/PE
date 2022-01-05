@@ -1,5 +1,6 @@
 import React from 'react';
 import BannerItem from './BannerItem';
+import Footer from '../footer/Footer'
 import Banner1 from './images/banner_1.jpg';
 import Banner2 from './images/banner_2.jpg';
 import Banner3 from './images/banner_3.jpg';
@@ -11,7 +12,6 @@ import Product3 from './images/product_4.png';
 import Product4 from './images/product_1.png';
 import Product5 from './images/product_8.png';
 import BestSellers from './BestSeller';
-import Logo from '../../headers/icon/full_logo.png'
 
 import ABG from './images/customerLogos/ABG.png';
 import Adani from './images/customerLogos/adani.png';
@@ -30,7 +30,7 @@ function IndexPage(){
             <section className="main_slider">
                     <div className="overlay"></div>
                     <div className="main_slider_content">
-                        <h4>Winter Collection 2021</h4>
+                        <h4>Winter Collection 2022</h4>
                         <h1>Plain bright color tshirts<br />just for you</h1>
                         <div className="yellow_button"><a href="/products">Go to products</a></div>
                     </div>
@@ -77,18 +77,7 @@ function IndexPage(){
                         <img src={GLS} alt="GLS University"/>
                     </div>
             </section>
-            <footer className="footer">
-                <div className="footer_logo"><img alt="Logo" src={Logo}/>
-                    <p>Ethically made just for you.</p>
-                </div>
-                <div className="">
-
-                </div>
-                <div className="contact-us">
-                    <p><i className="fas fa-phone"></i> +91 886-601-9607</p>
-                    <p><i className="fa fa-instagram"></i><a href="https://www.instagram.com/parth_enterprise14/" target="_blank">@parth_enterprise14</a></p>
-                </div>
-            </footer>
+            <Footer />
         </div>
     )
 }
