@@ -73,6 +73,12 @@ button{
 /* ------------------ Categories ------------------ */
 @import url("./components/mainpages/categories/categories.css");
 
+/* ------------------- About us -------------- */
+@import url("./components/mainpages/aboutus/AboutUs.css");
+
+/* ------------------- Contact us -------------- */
+@import url("./components/mainpages/contactus/ContactUs.css");
+
 /* ------------------- Create Product -------------- */
 @import url("./components/mainpages/createProduct/createProduct.css");
 

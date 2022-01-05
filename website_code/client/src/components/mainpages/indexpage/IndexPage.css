@@ -216,7 +216,7 @@
 
 .footer{
     background: #081c20;
-    height: 200px;
+    height: max-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -237,3 +237,19 @@
     line-height: 40px;
 }
 
+.footer .contact-us{
+    color: #fff;
+    padding: 40px 0;
+    font-size: 16px;
+}
+
+
+.footer .contact-us a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .contact-us i{
+    padding-right: 10px;
+    color: #ffcc00;
+}

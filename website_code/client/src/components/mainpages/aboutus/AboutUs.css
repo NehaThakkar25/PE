@@ -1,0 +1,63 @@
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.about-us .left-content{
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    height: 89.8vh;
+    margin: 0 50px;
+}
+
+.about-us img{
+    margin: auto auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us .left-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-us .left-content p{
+    font-size: 18px;
+}
+
+.our-mission h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.our-mission .grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.our-mission .grid1 div{
+    justify-content: center;
+    text-align: center;
+    margin: 50px 100px;
+    border: 14px solid #2f2e41;
+    padding: 40px;
+}
+
+.our-mission .grid1 h2{
+    margin-bottom: 30px;
+}
+
+.our-mission .grid1 p{
+    font-size: 16px;
+}
+
+.abt .image{
+    margin: 40px;
+    width: 95%;;
+}
