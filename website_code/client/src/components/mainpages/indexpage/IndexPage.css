@@ -237,3 +237,20 @@
     line-height: 40px;
 }
 
+
+.footer .contact-us{
+    color: #fff;
+    padding: 40px 0;
+    font-size: 16px;
+}
+
+
+.footer .contact-us a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .contact-us i{
+    padding-right: 10px;
+    color: #ffcc00;
+}
