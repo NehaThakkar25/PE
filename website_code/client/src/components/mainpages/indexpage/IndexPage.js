@@ -46,11 +46,11 @@ function IndexPage(){
             <section className="bestsellers">
                 <h1>Our BestSellers</h1>
                 <div className="products">
-                <BestSellers image={Product1} product_name="Round Neck Black T-shirt" price="₹200.00"/>
-                <BestSellers image={Product2} product_name="Spotify Wooden Cassette" price="₹300.00"/>
-                <BestSellers image={Product5} product_name="Spanish Neck Blue T-shirt" price="₹200.00"/>
-                <BestSellers image={Product3} product_name="Spotify Keychain" price="₹250.00"/>
-                <BestSellers image={Product4} product_name="Chocolate Gift Hamper" price="₹650.00"/>
+                <BestSellers image={Product1} product_name="Round Neck Black T-shirt" />
+                <BestSellers image={Product2} product_name="Spotify Wooden Cassette" />
+                <BestSellers image={Product5} product_name="Spanish Neck Blue T-shirt" />
+                <BestSellers image={Product3} product_name="Employee Joining Gifts" />
+                <BestSellers image={Product4} product_name="Notebook Power Bank" />
                 </div>
             </section>
             <section className="about">

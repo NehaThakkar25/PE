@@ -13,13 +13,13 @@ function ContactUs(){
                                 <p>+91 886-601-9607</p>
                             </div>
                             <div>
-                                <i className='fa fa-instagram'></i>
-                                <p><a href="https://www.instagram.com/parth_enterprise14/" target="_blank">@parth_enterprise14</a></p>
+                                <i className='fa fa-envelope'></i>
+                                <p>biz.parthenterprise@gmail.com</p>
                             </div>
                             <div>
                                 <i className='fa fa-map-marker-alt'></i>
                                 <p>
-                                Color Box,<br />
+                                Parth Enterprise,<br />
                                 1493/10/S Dariyapur Gate,<br />
                                 Opposite Lalpuri Mara Temple, <br />
                                 Dariyapur, Ahmedabad - 380004,<br />
