@@ -24,16 +24,16 @@ import NU from './images/customerLogos/NU.png';
 import PDPU from './images/customerLogos/PDPU.png';
 
 
-function IndexPage(){
-    return(
+function IndexPage() {
+    return (
         <div className="IndexPage">
             <section className="main_slider">
-                    <div className="overlay"></div>
-                    <div className="main_slider_content">
-                        <h4>Winter Collection 2022</h4>
-                        <h1>Plain bright color tshirts<br />just for you</h1>
-                        <div className="yellow_button"><a href="/products">Go to products</a></div>
-                    </div>
+                <div className="overlay"></div>
+                <div className="main_slider_content">
+                    <h4>Winter Collection 2022</h4>
+                    <h1>Plain bright color tshirts<br />just for you</h1>
+                    <div className="yellow_button"><a href="/products">Go to products</a></div>
+                </div>
             </section>
             <section className="banners">
                 <div className="banner-items">
@@ -46,11 +46,11 @@ function IndexPage(){
             <section className="bestsellers">
                 <h1>Our BestSellers</h1>
                 <div className="products">
-                <BestSellers image={Product1} product_name="Round Neck Black T-shirt" />
-                <BestSellers image={Product2} product_name="Spotify Wooden Cassette" />
-                <BestSellers image={Product5} product_name="Spanish Neck Blue T-shirt" />
-                <BestSellers image={Product3} product_name="Employee Joining Gifts" />
-                <BestSellers image={Product4} product_name="Notebook Power Bank" />
+                    <BestSellers image={Product1} product_name="Round Neck Black T-shirt" />
+                    <BestSellers image={Product2} product_name="Spotify Wooden Cassette" />
+                    <BestSellers image={Product5} product_name="Spanish Neck Blue T-shirt" />
+                    <BestSellers image={Product3} product_name="Employee Joining Gifts" />
+                    <BestSellers image={Product4} product_name="Notebook Power Bank" />
                 </div>
             </section>
             <section className="about">
@@ -58,27 +58,27 @@ function IndexPage(){
                 <div className="about_content">
                     <h2>Get your personalised gifts today.</h2>
                     <p>Special gifts for your friends, family and loved ones. Get them today!<br />
-                    Personalised design tshirts, illustration wallet cards, spotify frames, spotify cassette tape, gift hampers and much more. Check out our products soon.</p>
+                        Personalised design tshirts, illustration wallet cards, spotify frames, spotify cassette tape, gift hampers and much more. Check out our products soon.</p>
                 </div>
             </section>
             <section className="ourCustomers">
                 <h1>Our Happy Clients</h1>
-                    <div className="customer-logos">
-                        <img src={ABG} alt="Aditya Birla Group"/>
-                        <img src={AU} alt="Ahmedabad University"/>
-                        <img src={Adani} alt="Adani"/>
-                        <img src={LG} alt="LG"/>
-                        <img src={MI} alt="MI"/>
-                    </div>
-                    <div className="customer-logos">
-                        <img src={PDPU} alt="PDPU"/>
-                        <img src={CERA} alt="CERA"/>
-                        <img src={NU} alt="Nirma University"/>
-                        <img src={GLS} alt="GLS University"/>
-                    </div>
-            </section>
+                <div className="customer-logos">
+                    <img src={ABG} alt="Aditya Birla Group" />
+                    <img src={AU} alt="Ahmedabad University" />
+                    <img src={Adani} alt="Adani" />
+                    <img src={LG} alt="LG" />
+                    <img src={MI} alt="MI" />
+                    {/* </div>
+                     */}
+                    <img src={PDPU} alt="PDPU" />
+                    <img src={CERA} alt="CERA" />
+                    <img src={NU} alt="Nirma University" />
+                    <img src={GLS} alt="GLS University" />
+                </div>
+            </section >
             <Footer />
-        </div>
+        </div >
     )
 }
 

@@ -27,6 +27,14 @@
   background-color: #b99401;
 }
 
+body{
+  position: relative;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -91,31 +99,42 @@ button{
   header ul{
    padding: 10px 0;
   }
+
 }
-@media (max-width: 720px){
+@media (max-width: 790px){
   header ul{
    position: fixed;
    top:0;
    left: -100%;
    width: 100%;
-   height: 100vh;
-   background: white;
+   height: 35vh;
+   background: rgba(8, 26, 32, 1);
    display: flex;
    flex-direction: column;
    justify-content: space-around;
-   align-items: center;
+   align-items: flex-start ;
    opacity: 0.98;
    z-index: 99;
    transition: 0.5s ease-in;
+   padding-bottom: 10px;
   }
   header .menu{
     display: block;
     cursor: pointer;
+    color: white;
+    font-size: 35px;
+    text-align: center;
   }
+
+  header .menu::before{
+    padding-left: 20px;
+  }
+
   header ul li .menu{
-    position: absolute;
+    position: relative;
     top:20px;
     right: 20px;
+    z-index: 999999;
   }
   header{
     justify-content: space-between;

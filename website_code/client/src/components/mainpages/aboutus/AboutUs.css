@@ -61,3 +61,107 @@
     margin: 40px;
     width: 95%;;
 }
+
+@media (min-width: 320px) and (max-width: 425px){
+    .about-us{
+        grid-template-columns: auto;
+    }
+
+    .about-us .left-content{
+        margin: 0;
+        height: 55vh
+    }
+
+    .about-us .left-content h1{
+        text-align: center;
+    }
+
+    .about-us .left-content .desc{
+        font-size: 14px;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .about-us img{
+        height: 200px;
+    }
+
+    .our-mission .grid1{
+        grid-template-columns: auto;
+    }
+
+    .our-mission .grid1 div{
+        margin: 10px;
+    }
+
+    .abt .image{
+        margin: 20px 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    .about-us{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-us img{
+        height: 300px;
+    }
+
+    .about-us .left-content h1{
+        font-size: 40px;
+    }
+
+    .about-us .left-content .desc{
+        font-size: 14px;
+    }
+
+    .our-mission .grid1 div{
+        margin: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 820px){
+    .about-us{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-us img{
+        height: 300px;
+    }
+
+    .about-us .left-content h1{
+        font-size: 40px;
+    }
+
+    .about-us .left-content .desc{
+        font-size: 14px;
+    }
+
+    .our-mission .grid1 div{
+        margin: 20px;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px){
+    .about-us{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-us img{
+        height: 300px;
+    }
+
+    .about-us .left-content h1{
+        font-size: 40px;
+    }
+
+    .about-us .left-content .desc{
+        font-size: 14px;
+    }
+
+    .our-mission .grid1 div{
+        margin: 20px;
+    }
+}

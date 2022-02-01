@@ -77,10 +77,10 @@
 }
 
 .banner-items{
-    display: flex !important;
-    flex-direction: row !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));;
     margin: 50px 0;
-    justify-content: center;
+    justify-items: center;
 }
 
 .banner_item{
@@ -90,7 +90,7 @@
     align-items: center;
     width: 280px;
     height: 265px;
-    margin: 0 10px;
+    margin: 0 40px 20px;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center center !important;
@@ -137,11 +137,13 @@
 }
 
 .bestsellers .products{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: space-between;
     margin: 50px 0px;
     padding: 0;
 }
+
 
 .bestsellers .products .product_item img{
     width: 250px;
@@ -170,9 +172,10 @@
 
 .about{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     position: relative;
     padding: 50px 200px;
+    justify-items: center;
 }   
 
 .about .about_content h2{
@@ -200,15 +203,15 @@
 }
 
 .ourCustomers .customer-logos{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 12vw);
+    justify-items: center;
 }
 
 .ourCustomers .customer-logos img{
+    margin: 20px 0;
     height: 150px;
-    margin: 50px 50px 40px;
 }
 
 .footer{
@@ -249,4 +252,106 @@
 .footer .contact-us i{
     padding-right: 10px;
     color: #ffcc00;
+}
+@media (min-width: 320px) and (max-width: 425px){
+    .main_slider .main_slider_content h1{
+        font-size: 40px;
+    }
+
+    .bestsellers{
+        padding: 30px;
+    }
+    .bestsellers .products{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .about{
+        display: none;
+    }
+
+    .about .about_content p{
+        font-size: 11px;
+        padding: 22px 10px ;
+        width: 380px !important;
+        margin: 0 0;
+    }
+
+    .bestsellers .products{
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .ourCustomers{
+        padding: 10px;
+    }
+
+    .ourCustomers .customer-logos{
+        grid-template-columns: auto;
+        grid-template-rows:none;
+    }
+
+    .footer{
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+
+    .footer .contact-us{
+        font-size: 12px;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px){
+    .bestsellers .products{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: space-between;
+    }
+
+    .about .about_content h2,
+    .about .about_content p{
+        text-align: center;
+    }
+
+    .ourCustomers .customer-logos{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 25vw);
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 820px){
+    .bestsellers .products{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-items: space-between;
+    }
+
+    .about{
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+
+    .about .about_content h2,
+    .about .about_content p{
+        text-align: center;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px){
+    .bestsellers .products{
+        grid-template-columns: auto auto auto;
+        justify-items: center;
+    }
+
+    .about .about_content h2,
+    .about .about_content p{
+        text-align: center;
+    }
+    
+    .ourCustomers .customer-logos{
+    grid-template-rows: repeat(3, 18vw);
+    }
 }
