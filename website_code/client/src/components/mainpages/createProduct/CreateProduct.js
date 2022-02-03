@@ -7,9 +7,9 @@ import {useHistory, useParams} from 'react-router-dom'
 const initialState = {
     product_id: '',
     title: '',
-    price: 0,
-    description: 'How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.',
-    content: 'Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.',
+    // price: 0,
+    description: 'A Short Description about the product.',
+    content: 'Sizes and Colors available about the product goes here.',
     category: '',
     _id: ''
 }
@@ -149,11 +149,11 @@ function CreateProduct() {
                     value={product.title} onChange={handleChangeInput} />
                 </div>
 
-                <div className="row">
+                {/* <div className="row">
                     <label htmlFor="price">Price</label>
                     <input type="number" name="price" id="price" required
                     value={product.price} onChange={handleChangeInput} />
-                </div>
+                </div> */}
 
                 <div className="row">
                     <label htmlFor="description">Description</label>
